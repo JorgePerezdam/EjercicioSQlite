@@ -70,10 +70,9 @@ public class Principal extends JFrame implements ActionListener{
 	    }
 
 	public static void main(String[] args) {
+		 new Principal();
 		 System.out.println("Primera línea agregada");
 		 System.out.println("Segunda línea agregada");
-		 new Principal();
-
 		}//fin main
    
 }//fin class 
